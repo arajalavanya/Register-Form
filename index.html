@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        const div1 = document.createElement("div");
+        div1.style.border = "5px solid yellow";
+        div1.style.backgroundImage = "url('j1.jfif')";
+        div1.style.backgroundRepeat = "no-repeat";
+        div1.style.backgroundSize = "cover";
+        div1.style.width = "500px";
+        div1.style.height = "500px";
+        document.body.appendChild(div1);
+
+        const div2 = document.createElement("div");
+        div2.style.border = "5px solid gray";
+        div2.style.width = "200px";
+        div2.style.height = "200px";
+        div1.appendChild(div2);
+
+        const p1 = document.createElement("p");
+        p1.style.color = "red";
+        p1.innerHTML = "pinky";
+        div2.appendChild(p1);
+
+        const div3 = document.createElement("div");
+        div3.style.border = "5px solid green";
+        div3.style.width = "200px";
+        div3.style.height = "200px";
+        div1.appendChild(div3);
+
+        const p2 = document.createElement("p");
+        p2.style.backgroundColor = "black";
+        p2.style.color = "white";
+        p2.innerHTML = "chinnu";
+        div3.appendChild(p2);
+
+
+    </script>
+
+</body>
+
+</html>
